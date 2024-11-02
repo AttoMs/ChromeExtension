@@ -1,19 +1,18 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Extensão para Google Chrome
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Esta é uma extensão para o navegador Google Chrome, desenvolvida com conceitos de JavaScript e com ferramentas avançadas de armazenamento e manipulação de dados. O projeto foi criado como parte de um curso na plataforma Scrimba.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Funcionalidades
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- **Persistência de Dados com LocalStorage**: A extensão salva o site específico inserido pelo usuário no armazenamento local do navegador, permitindo que o site permaneça salvo mesmo após atualizar ou reiniciar a página.
+- **Manipulação de Dados com JSON**: A extensão utiliza JSON para converter dados entre formatos. Isso permite salvar um array no LocalStorage em formato de string (com `JSON.stringify`) e recuperá-lo de volta para array (com `JSON.parse`).
 
-Happy Coding!
+## Tecnologias e Ferramentas
+
+- **JavaScript**: Base da lógica da extensão.
+- **LocalStorage**: Para persistir o site salvo, tornando a extensão funcional a cada atualização da página.
+- **JSON (parse e stringify)**: Para transformar arrays em strings e vice-versa, o que facilita a manipulação dos dados salvos.
+
+## Curso
+
+Esse projeto foi desenvolvido como parte de um curso na plataforma **Scrimba** sobre criação de extensões e manipulação de dados no navegador.
